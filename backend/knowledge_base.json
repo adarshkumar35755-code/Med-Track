@@ -1,0 +1,58 @@
+{
+  "myths_facts": [
+    {
+      "myth": "Antibiotics can cure colds and flu faster.",
+      "fact": "Colds and flu are caused by viruses. Antibiotics only kill bacteria, so they do nothing against viral infections — and taking them anyway just adds resistance risk with zero benefit."
+    },
+    {
+      "myth": "If I feel better, I can stop taking the antibiotic.",
+      "fact": "Feeling better means the weakest bacteria have died, not all of them. Stopping early lets the toughest, most resistant bacteria survive and multiply — this is one of the biggest drivers of antimicrobial resistance."
+    },
+    {
+      "myth": "Leftover antibiotics from a past illness are fine to reuse.",
+      "fact": "Different infections need different antibiotics, doses, and durations. Leftover pills are often the wrong drug, wrong dose, or expired, and reusing them skips the diagnosis step entirely."
+    },
+    {
+      "myth": "Stronger or more antibiotics work better and faster.",
+      "fact": "Using a broader or stronger antibiotic than needed kills more of your healthy bacteria too and increases resistance risk. The right antibiotic is the narrowest one that treats the specific infection."
+    },
+    {
+      "myth": "Antibiotics are safe to buy and take without a prescription.",
+      "fact": "Self-diagnosis is frequently wrong. Without proper diagnosis, people take antibiotics for viral infections, wrong-target bacterial infections, or unnecessary conditions — all of which fuel resistance without curing anything."
+    },
+    {
+      "myth": "Antibiotic resistance is the drug's problem, not mine.",
+      "fact": "Resistance develops in your own body's bacteria and can spread to others around you. Misuse by one person contributes to a shared, global problem — not just a personal one."
+    },
+    {
+      "myth": "A fever always means I need antibiotics.",
+      "fact": "Fever is a general immune response to many causes, most commonly viral. It is not, by itself, a sign that antibiotics are needed — that requires clinical evaluation."
+    }
+  ],
+  "amr_explainer": {
+    "title": "What is Antimicrobial Resistance (AMR)?",
+    "sections": [
+      {
+        "heading": "The simple version",
+        "body": "Antimicrobial resistance is what happens when bacteria stop responding to the antibiotics that used to kill them. Every time an antibiotic is used, most bacteria die — but a few naturally tougher ones can survive. Skipping doses, stopping early, or taking antibiotics when they're not needed gives those survivors more chances to multiply and pass on their resistance."
+      },
+      {
+        "heading": "Why it matters",
+        "body": "Over time and across many people, bacteria as a whole get better at surviving antibiotics — until the drugs stop working, not just for one person but for anyone infected with that resistant strain. Infections that used to be easily treatable, like basic UTIs or skin infections, can become dangerous or untreatable."
+      },
+      {
+        "heading": "It's not just a personal risk",
+        "body": "Resistant bacteria can spread to other people, including those who never misused antibiotics themselves. Many routine medical procedures — surgery, chemotherapy, childbirth — rely on antibiotics working reliably to prevent infection, so resistance puts far more than one illness at risk."
+      }
+    ]
+  },
+  "safe_advice": {
+    "self_medication": "Antibiotics should only be taken based on a clinician's diagnosis. Self-medicating risks treating the wrong problem, using the wrong drug, or masking a condition that needs different care. Please consult a doctor or pharmacist before taking or continuing this antibiotic.",
+    "incomplete_course": "Always finish the full course exactly as prescribed, even if you feel better early. Stopping early is one of the most common causes of antibiotic resistance. If side effects are the reason you stopped, contact your prescriber rather than discontinuing on your own.",
+    "leftover_medication": "Do not reuse leftover antibiotics from a previous illness. Each infection needs its own diagnosis and matched treatment. Dispose of unused antibiotics safely and consult a doctor for your current symptoms.",
+    "viral_likely": "The symptoms described are commonly associated with viral infections, which antibiotics cannot treat. Rest, fluids, and symptom relief are usually appropriate, but see a doctor if symptoms are severe, worsening, or last beyond 10 days.",
+    "dosing_unclear": "Antibiotic dosing and duration should always follow a prescriber's instructions. If you're unsure of the correct dose or duration, check with a pharmacist or doctor rather than guessing.",
+    "general_safe": "Only take antibiotics prescribed specifically to you, for the diagnosed condition, at the prescribed dose, for the full prescribed duration. Never share antibiotics with others."
+  },
+  "disclaimer": "This tool provides general educational information and risk awareness only. It does not diagnose conditions or replace professional medical advice. Always consult a qualified healthcare provider for decisions about antibiotic use."
+}
