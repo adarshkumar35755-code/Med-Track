@@ -50,9 +50,9 @@ export default function RiskResult({ result }: { result: CheckResponse }) {
       <section>
         <h4>What to do</h4>
         <ul>
-          {result.safe_advice.map((advice, i) => (
-            <li key={i}>{advice}</li>
-          ))}
+          {result.safe_advice.map((advice: string, i: number) => (
+  <li key={i}>{advice}</li>
+))}
         </ul>
       </section>
 

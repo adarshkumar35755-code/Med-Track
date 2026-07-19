@@ -9,13 +9,23 @@ export interface ExtractedFacts {
   source: "prescribed" | "self_purchased" | "leftover" | "unknown";
 }
 
-export interface ChatTurn {
-  type: "question" | "result";
-  message: string;
-  quick_replies: string[];
+// export interface ChatTurn {
+//   type: "question" | "result";
+//   message: string;
+//   quick_replies: string[];
+//   extracted: ExtractedFacts;
+//   risk_tier: RiskTier | null;
+//   risk_flags: string[];
+//   safe_advice: string[];
+//   disclaimer: string;
+// }
+
+export interface CheckResponse {
+  risk_tier: RiskTier;
+  needs_clarification: boolean;
+  clarifying_question: string | null;
   extracted: ExtractedFacts;
-  risk_tier: RiskTier | null;
-  risk_flags: string[];
+  explanation: string;
   safe_advice: string[];
   disclaimer: string;
 }
